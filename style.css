@@ -185,6 +185,8 @@ body{
 
 .sec-3-pic{
     width: 100%;
+    position: relative;
+
 }
 
 .box-title{
@@ -198,6 +200,7 @@ body{
     position: absolute;
     left: 54%;
     top: 90%;
+    z-index: 1;
 }
 
 .btn-title{
@@ -259,16 +262,55 @@ body{
     .sec-2-text{
         padding-left: 5px;
     }
+
+
+    /* ________responsive-section-3_______ */
+
+    .sec-3{
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .btn-title{
+        font-size: 36px;
+    }
+
+    .sec-3-btn{
+        padding: 20px;
+        position: absolute;
+        top: 15%;
+    }
 }
 
 @media screen and (min-width: 576px) and (max-width: 896px) {
+    
+    /* _____________section-2_resposnsive___________ */
+    
     .sec-2{
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 30px;
     }
 
     .sec-2-text{
         padding-left: 20px;
+    }
+
+
+    /* _____________section-3_responsive________ */
+
+    .sec-3{
+        flex-direction: column-reverse;
+        position: relative;
+    }
+
+    .btn-title{
+        font-size: 36px;
+    }
+
+    .sec-3-btn{
+        padding: 20px;
+        position: absolute;
+        top: 30%;
     }
 }
 
