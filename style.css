@@ -21,6 +21,7 @@
     --Dark-6: #E7E7E7;
     --Dark-6: #F3F3F3;
     --white-color: #fff;
+    --footer-color: #FFF4E7;
 }
 
 body{
@@ -246,6 +247,50 @@ body{
 
 
 
+/* __________section-5-sponsors__________ */
+
+.sec-5{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.sec-5-title{
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sec-5-para{
+    text-align: center;
+}
+
+.sponsors-container{
+    width: 100%;
+    height: fit-content;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+/* ___________footer_________ */
+
+.footer{
+    width: 100%;
+    height: 300px;
+    margin: 40px auto;
+}
+
+.foot{
+    width: 85%;
+    height: 100px;
+    margin: 120px auto;
+    background: var(--btn-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 
 
 
@@ -333,6 +378,35 @@ body{
     }
 
     .box-para{
+        text-align: center;
+    }
+
+    /* __________section-5_sponsors_________ */
+
+    .sponsors-container{
+        width: 100%;
+        height: fit-content;
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap:30px;
+    }
+
+
+    /* ______________footer_____________ */
+
+    .footer{
+        width: 100%;
+        height: fit-content;
+        margin: 20px auto;
+    }
+
+    .foot{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .foot-para{
         text-align: center;
     }
 }
