@@ -456,5 +456,35 @@ body{
         gap: 25px;
         margin: 20px 0;
     }
+
+/* __________section-5_sponsors_________ */
+
+.sponsors-container{
+    width: 100%;
+    height: fit-content;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+}
+
+
+
+    /* ______________footer_____________ */
+
+    .footer{
+        width: 100%;
+        height: fit-content;
+        margin: 20px auto;
+    }
+    
+    .foot{
+        width: 100%;
+        padding: 15px;
+    }
+    
+    .foot-para{
+        text-align: center;
+    }
 }
 
